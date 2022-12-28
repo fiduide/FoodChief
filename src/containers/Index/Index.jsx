@@ -60,7 +60,7 @@ const Index = () => {
             </div>
 
             <div className="container mt-2 mb-2 text-center">
-              <a href="/random" className="btn btn-oranged  mt-2">
+              <a href="/foodchief/random" className="btn btn-oranged  mt-2">
                 Get random recipe
               </a>
             </div>
@@ -70,7 +70,7 @@ const Index = () => {
         <>
           <SearchHeader handleClick={handleClick}></SearchHeader>
           <div className="mx-auto text-center mt-5">
-            <a href="/" className="btn btn-outline-oranged">
+            <a href="/foodchief" className="btn btn-outline-oranged">
               Back
             </a>
           </div>
