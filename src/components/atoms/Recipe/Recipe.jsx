@@ -2,7 +2,7 @@ import RecipeStyled from "./Recipe.styled";
 
 const Recipe = ({ recipeInfo }) => {
   return (
-    <RecipeStyled href={`/recipe/${recipeInfo.id}`}>
+    <RecipeStyled href={`/foodchief/recipe/${recipeInfo.id}/`}>
       <img src={recipeInfo.image} alt={recipeInfo.title} />
       <h2>{recipeInfo.title}</h2>
     </RecipeStyled>

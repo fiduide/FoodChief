@@ -70,7 +70,7 @@ const Index = () => {
         <>
           <SearchHeader handleClick={handleClick}></SearchHeader>
           <div className="mx-auto text-center mt-5">
-            <a href="/foodchief" className="btn btn-outline-oranged">
+            <a href="/foodchief/" className="btn btn-outline-oranged">
               Back
             </a>
           </div>
