@@ -107,8 +107,6 @@ const Random = () => {
                 <NotFound />
               )}
             </div>
-
-            <div className="bottom-recipe-similar">TODO Similar recipe</div>
           </div>
         </>
       )}
