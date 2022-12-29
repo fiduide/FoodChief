@@ -40,6 +40,18 @@ const RecipeStyled = styled.div`
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 1100px) {
+    .left {
+      padding: 0 15px;
+      max-width: 100%;
+    }
+
+    .right {
+      padding: 0 15px;
+      max-width: 100%;
+    }
+  }
 `;
 
 export default RecipeStyled;
