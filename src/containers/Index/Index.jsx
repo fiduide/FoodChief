@@ -9,6 +9,7 @@ import pottageRecipe from "assets/images/pottage.jpg";
 import saladeRecipe from "assets/images/salade.jpg";
 import { useState } from "react";
 import SearchHeader from "components/organisms/SearchHeader";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const [search, setSearch] = useState([]);
@@ -60,9 +61,9 @@ const Index = () => {
             </div>
 
             <div className="container mt-2 mb-2 text-center">
-              <a href="/foodchief/random" className="btn btn-oranged  mt-2">
+              <Link to={`/foodchief/random`} className="btn btn-oranged mt-2">
                 Get random recipe
-              </a>
+              </Link>
             </div>
           </div>
         </>
@@ -70,9 +71,9 @@ const Index = () => {
         <>
           <SearchHeader handleClick={handleClick}></SearchHeader>
           <div className="mx-auto text-center mt-5">
-            <a href="/foodchief/" className="btn btn-outline-oranged">
+            <Link to={`/foodchief/`} className="btn btn-outline-oranged">
               Back
-            </a>
+            </Link>
           </div>
           <ListRecipes search={search}></ListRecipes>
         </>
