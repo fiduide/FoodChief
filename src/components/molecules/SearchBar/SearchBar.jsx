@@ -5,11 +5,7 @@ const SearchBar = ({ handleClick }) => {
   return (
     <SearchBarStyled>
       <div className="input-controller">
-        <input
-          id="searchInput"
-          type="text"
-          placeholder="Choissisez votre recette"
-        />
+        <input id="searchInput" type="text" placeholder="Choose your recipe" />
         <div className="icon-box">
           <button onClick={() => handleClick()}>
             <img src={searchImg} alt="search-icon" />
