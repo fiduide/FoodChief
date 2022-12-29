@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const RecipeStyled = styled.a`
+const RecipeStyled = styled.div`
   background-color: white;
   color: black;
   border-radius: 15px;
